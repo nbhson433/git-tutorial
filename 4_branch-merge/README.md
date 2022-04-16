@@ -15,7 +15,7 @@ git branch -D "tên branch"
 ``` 
 Xóa một branch ở local
 ```html
-git push origin --delete branch_to_be_deleted
+git push origin --delete "branch in server"
 ``` 
 Xóa một nhánh ở server
 
