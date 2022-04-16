@@ -11,12 +11,15 @@ git branch "tên branch mới"
 Tạo ra một branch mới
 ```html
 git branch -d "tên branch"
+git branch -D "tên branch"
 ``` 
 Xóa một branch ở local
 ```html
 git push origin --delete branch_to_be_deleted
 ``` 
 Xóa một nhánh ở server
+
+-d là viết ngắn gọn của –delete và nó chỉ xóa khi nhánh đó đã được merged vào từ nhánh gốc nó base ra. -D là –delete và –force => xóa hết ko cần quan tâm
 
 ## Git fetch
 ```html
