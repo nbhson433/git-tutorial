@@ -25,7 +25,7 @@ git reset --soft "commitId"
 ``` 
 Dùng để để revert commit (quay về staging area)
 ```html
-git reset --mixed "commitId"
+git reset --mixed "commitId" (DEFAULT)
 ``` 
 Dùng để để revert commit (quay về working dir)
 ```html
