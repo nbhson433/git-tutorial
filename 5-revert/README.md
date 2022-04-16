@@ -8,5 +8,3 @@ Xóa đi những thay đổi của một commit nào đó bất kì phía trư�
 trả về trạng thái ban đầu trước khi change của commit đó
 
 Content 2
-
-Content 3
