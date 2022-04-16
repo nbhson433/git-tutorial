@@ -33,6 +33,12 @@ git checkout "tên branch"
 ``` 
 Để switch qua lại giữa các branch
 
+## Git amend
+```html
+git commit --amend -m "new message"
+``` 
+Gom thành một commit duy nhất
+
 ## Git merge
 ```html
 git merge "tên branch"
