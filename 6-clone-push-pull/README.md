@@ -8,3 +8,4 @@ Lấy code từ trên máy chủ về (nhân bản) máy local
 
 ## git pull 
 Đồng bộ giữa máy chủ về máy local
+
