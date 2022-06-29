@@ -1,34 +1,26 @@
 # Git Reset
 
-## Git restore
-```html
-"git restore --staged "tên file"
-``` 
-Loại bỏ file change ra khỏi state
+## git restore
+> git restore --staged .
+Đưa tất cả những thằng trong state về directory
 
+> git restore --staged "tên file"
+Đưa từng trong state về directory
 
 ## git reset
-```html
-git reset .
-``` 
-Loại bỏ file change ra khỏi state
-```html
-git reset "tên file"
-``` 
+> git reset 
+> git reset .
+Loại bỏ file change ra khỏi state về directory
+
+> git reset "tên file"
 Dùng để unstate file
-```html
-git reset "commitId"
-``` 
-Dùng để để revert commit (quay về working dir)
-```html
-git reset --soft "commitId"
-``` 
+
+> git reset --soft "commitId"
 Dùng để để revert commit (quay về staging area)
-```html
-git reset --mixed "commitId" (DEFAULT)
-``` 
+
+> git reset "commitId"
+> git reset --mixed "commitId" (DEFAULT)
 Dùng để để revert commit (quay về working dir)
-```html
-git reset --hard "commitId"
-``` 
+
+>git reset --hard "commitId"
 Dùng để để revert commit (REMOVE COMMIT + MẤT LUÔN CODE CŨ)
