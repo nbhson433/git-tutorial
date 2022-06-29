@@ -11,7 +11,8 @@
 - Working directory: thư mục làm việc, nơi xảy ra những thay đổi trong file
 - Stating area: Khi `git add` thì những file ở working directory sẽ được add vào stating area này
 - Local repo: những thay đổi ở staging area sẽ được đưa vào local repo khi `git commit`
-- Remote repo: được dùng để đồng bộ những thay đổi ở local lên remote
+- Remote repo: được dùng để đồng bộ những thay đổi ở local lên remote bằng `git push`, hoặc đồng bộ từ remote về local thì dùng `git fetch`
+
 
 ## Commit
 Mỗi thay thêm sửa xóa code thì sử dụng commit để update repo

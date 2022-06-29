@@ -23,4 +23,4 @@ Dùng để để revert commit (quay về staging area)
 Dùng để để revert commit (quay về working dir)
 
 >git reset --hard "commitId"
-Dùng để để revert commit (REMOVE COMMIT + MẤT LUÔN CODE CŨ)
+Dùng để để revert commit **REMOVE COMMIT + MẤT LUÔN CODE CŨ**
