@@ -21,7 +21,7 @@ Code change (working directory)
 -> git add: để đưa code change vào staging area
 -> git commit: để đưa code change vào repo local (chỉ những thằng ở trong staging area mới được commit)
 
-## Các công cụ quản lí Git
+## Các công cụ dùng quản lí Git
 - Github
 - Gitlab
 - Bitbucket
