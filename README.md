@@ -20,3 +20,8 @@ Mỗi thay thêm sửa xóa code thì sử dụng commit để update repo
 Code change (working directory)
 -> git add: để đưa code change vào staging area
 -> git commit: để đưa code change vào repo local (chỉ những thằng ở trong staging area mới được commit)
+
+## Các công cụ quản lí Git
+- Github
+- Gitlab
+- Bitbucket
