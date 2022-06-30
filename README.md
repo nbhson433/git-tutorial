@@ -2,7 +2,7 @@
 
 ## Repo (repository)
 - Là một dự chứa toàn bộ source code của dự án.
-- Repo có 2 loại:
+- Repo có 2 loại (repo dùng để theo dõi lịch sử, mỗi repo là 1 project):
   + `Local repo`: trong máy
   + `Remote repo`: nằm trên máy chủ (có thể pull, push)
 - Trong repo thì có rất nhiều commit
@@ -25,3 +25,28 @@ Code change (working directory)
 - Github
 - Gitlab
 - Bitbucket
+
+## Thực tế
+
+> git init 
+Để tạo một git ở local, có thể thay đổi thông tin trong .git/config như username, email,...
+
+> git status
+Để xem sự thay đổi trên local repo, bao gồm file trong working directory, file trong stating,....
+
+> git add
+Để đưa những thay đổi ở working dir vào stating area
+
+> git commit
+Để đưa những thay đổi ở staging area vào repository
+
+['Staging area'](img/index1@2x.png)
+
+> git commit --amend
+Thay đổi message commit
+
+> git push --force
+Ghi đè lịch sử  lên remote. **Không nên sử dụng**
+
+> git log
+Xem lịch sử của repo

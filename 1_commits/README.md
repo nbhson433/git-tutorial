@@ -21,3 +21,5 @@ Dùng để add từng file mong muốn vào state
 > git commit -m "message commit"
 Dùng để thêm những thay đổi vào repo trong máy
 Mỗi commit sẽ có một commitId
+> git commit -a -m "message commit"
+Từ working dir và commit với mgs luôn
