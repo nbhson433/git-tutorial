@@ -3,6 +3,8 @@
 ## git log
 > git log
 Xem lịch sử đã commit (người commit, ngày tháng commit, nội dung của commit)
+> git log --oneline
+Xem lịch sử trên 1 dòng
 
 ## git show
 > git show "commitId"
