@@ -51,4 +51,3 @@ Ghi đè lịch sử  lên remote. **Không nên sử dụng**
 > git log
 
 Xem lịch sử của repo
-
